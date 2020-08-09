@@ -1,3 +1,14 @@
+# Atualizações
+
+Arquivos básicos adicionados:
++ Notebook Jupyter
++ Arquivos .txt dataset
++ Dados.xlsx
++ Dados_csv.csv
+
+Futuramente irei descrever cada arquivo (alguns já possuem categorias próprias, outros serão citados conforme se tornarem relevantes), os códigos e as etapas as quais os dados foram submetidas.
+
+
 # Lista de Conteúdo
 
 + [Dataset Info](#dataset-info)
