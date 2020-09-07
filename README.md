@@ -18,6 +18,7 @@ Título atualizado, os arquivos serão atualizados e atribuídos conforme a evol
 + [Dataset Info](#dataset-info)
 + [Introdução e Objetivos](#introdução-e-objetivos)
 + [Estrutura dos Diretórios](#estrutura-dos-diretorios)
++ [Txt_site](#txt_site)
 + [WD_gather](#wd_gather)
 + [Tratamento_Dados](#tratamento_dados)
 + [Tratamento_Imagens](#tratamento_imagens)
@@ -76,6 +77,12 @@ Os diretórios foram organizados da seguinte maneira:
 + Imagens_Sem_Legenda - Imagens recortadas conforme a coordenada total de cada amostra pelo arquivo manlabel.txt
 + Dataframes - Diversos DataFrames gerados no decorrer dos testes.
   + GLCM_ML - Resultados dos modelos de Machine Learning utilizando as características GLCM (Pastas internas para cada modelo).
+
+**********
+
+## Txt_site
+
+O site do dataset possui 3 arquivos .txt adicionados a esta pasta, README_dataset contendo as instruções básicas do dataset, PPM_dataset que aborda as peculiaridades dos arquivos .ppm, e manlabel_dataset com a categorização de defeitos das imagens do dataset.
 
 **********
 
