@@ -1,4 +1,8 @@
-# Atualizações
+# TCC - Identificação de defeitos categorizados em amostras de Abeto
+
+**********
+
+## Atualizações
 
 Arquivos básicos adicionados:
 + Notebooks Jupyter
@@ -6,21 +10,22 @@ Arquivos básicos adicionados:
 + Dados.xlsx
 + Dados_csv.csv
 
-Futuramente irei descrever cada arquivo, alguns já possuem categorias próprias, outros serão citados conforme se tornarem relevantes.
+Título atualizado, os arquivos serão atualizados e atribuídos conforme a evolução do projeto.
 
 
-# Lista de Conteúdo
+## Lista de Conteúdo
 
-+ [Dataset Info](#dataset-info)
-+ [Introdução e Objetivos](#introdução-e-objetivos)
-+ [WD_gather](#wd_gather)
-+ [Tratamento_Dados](#tratamento_dados)
-+ [Tratamento_Imagens](#tratamento_imagens)
-+ [Feature_Detection](#feature_detection)
++ [Dataset Info](##dataset-info)
++ [Introdução e Objetivos](##introdução-e-objetivos)
++ [Estrutura dos Diretórios](##estrutura-dos-diretorios)
++ [WD_gather](##wd_gather)
++ [Tratamento_Dados](##tratamento_dados)
++ [Tratamento_Imagens](##tratamento_imagens)
++ [Feature_Detection](##feature_detection)
 
 **********
 
-# Dataset Info
+## Dataset Info
 
 First and foremost I must thank the professionals from the University of Oulu, without whom, this work would not be possible. We will be using the Wood Dataset, wich contains the images of 839 spruce planks. More info can be obtained at:
 
@@ -46,37 +51,53 @@ Computer Laboratory
 FIN-90570 OULU  
 Finland  
 
-The remaining of the document will be written in Brazilian Portuguese, as an undergrad thesis, it lacks the need for multilingual writing.
+The remaining of the document will be written in Brazilian Portuguese, as an undergrad final papel, it lacks the need for multilingual writing.
 
 Any questions can be sent to <buchner.eng@gmail.com>
 
 **********
 
-# Introdução e Objetivos
+## Introdução e Objetivos
+
+
+**********
+
+
+
+## Estrutura dos Diretórios
+
+Os diretórios foram organizados da seguinte maneira:
+
++ Compactados - Arquivos compactados no formato .gz
++ Imagens_PPM - Extração dos arquivos compactados no formato .ppm
++ Imagens_Originais - Arquivos .pmm convertidos para .jpg
++ Imagens_Recortadas - Imagens seccionadas conforme as coordenadas fornecidas pelo arquivo manlabel.txt
++ Imagens_Tratadas - Imagens gradeadas com os defeitos categorizados conforme o arquivo manlabel.txt
++ Imagens_Sem_Legenda - Imagens recortadas conforme a coordenada total de cada amostra pelo arquivo manlabel.txt
++ Dataframes - Diversos DataFrames gerados no decorrer dos testes.
+  + GLCM_ML - Resultados dos modelos de Machine Learning utilizando as características GLCM (Pastas internas para cada modelo).
+
+**********
+
+## WD_Gather
+
+Arquivo base para o projeto, realiza o download dos arquivos do dataset no diretório raiz, move os arquivos para as pastas respetivas e finalmente extrai os arquivos .ppm
+
+**********
+
+## Tratamento_Dados
 
 
 
 **********
 
-# WD_Gather
+## Tratamento_Imagens
 
 
 
 **********
 
-# Tratamento_Dados
-
-
-
-**********
-
-# Tratamento_Imagens
-
-
-
-**********
-
-# Feature_Detection
+## Feature_Detection
 
 
 
