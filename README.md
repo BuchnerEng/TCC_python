@@ -22,7 +22,7 @@ Futuramente irei descrever cada arquivo, alguns já possuem categorias próprias
 
 # Dataset Info
 
-First and foremost I must thank the professionals from the University of Oulu, without whom, this work would be impossible. We will be using the Wood Dataset, wich contains the images of 839 spruce planks. More info can be obtained at:
+First and foremost I must thank the professionals from the University of Oulu, without whom, this work would be not possible. We will be using the Wood Dataset, wich contains the images of 839 spruce planks. More info can be obtained at:
 
 http://www.ee.oulu.fi/~olli/Projects/Lumber.Grading.html
 
