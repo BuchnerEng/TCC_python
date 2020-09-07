@@ -81,7 +81,7 @@ Os diretórios foram organizados da seguinte maneira:
 
 ## WD_Gather
 
-Arquivo base para o projeto, realiza o download dos arquivos do dataset no diretório raiz, move os arquivos para as pastas respetivas e finalmente extrai os arquivos .ppm
+Arquivo base para o projeto, realiza o download dos arquivos do dataset no diretório raiz, move os arquivos para as pastas respetivas ,extrai os arquivos .ppm e cria arquivos convertidos .jpg
 
 **********
 
