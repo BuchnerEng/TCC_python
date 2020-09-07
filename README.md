@@ -15,13 +15,13 @@ Título atualizado, os arquivos serão atualizados e atribuídos conforme a evol
 
 ## Lista de Conteúdo
 
-+ [Dataset Info](##dataset-info)
-+ [Introdução e Objetivos](##introdução-e-objetivos)
-+ [Estrutura dos Diretórios](##estrutura-dos-diretorios)
-+ [WD_gather](##wd_gather)
-+ [Tratamento_Dados](##tratamento_dados)
-+ [Tratamento_Imagens](##tratamento_imagens)
-+ [Feature_Detection](##feature_detection)
++ [Dataset Info](#dataset-info)
++ [Introdução e Objetivos](#introdução-e-objetivos)
++ [Estrutura dos Diretórios](#estrutura-dos-diretorios)
++ [WD_gather](#wd_gather)
++ [Tratamento_Dados](#tratamento_dados)
++ [Tratamento_Imagens](#tratamento_imagens)
++ [Feature_Detection](#feature_detection)
 
 **********
 
